@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/6978/6978255.png" type="image/x-icon" />
+  <title>Pizza Online</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Form Pemesanan Pizza</h1>
+    <p>Silakan isi form di bawah ini untuk memesan pizza.</p>
+    <p><i>Pizza lezat cepat sampai ke rumah anda~ 🍕</i></p>
+ 
+  <nav>
+    <a href="#menu">Menu</a>    
+    <a href="#order">Pesan Sekarang</a>
+    <a href="#contact">Kontak Kami</a>
+  </nav>
+  <hr>
+  </header>
+
+    <!-- Section - Promo -->
+       <h2>Promo</h2>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGCYVfzCo94hRm5sSxQLx7WibUPHT0J7QpNw&s" alt="promo pizza" width="300">
+       <p><mark>Diskon 30%</mark> untuk pesanan minimal 2 pizza</p>
+       <ul>
+        <li>Rotinya enak</li>
+        <li>Harga terjangkau</li>
+        <li>Delivery Cepat</li>
+       </ul>
+
+    
+    <!-- Section - Menu-->
+     <section id="menu">
+        <h2>Menu</h2>
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Nama Pizza</th>
+                <th>Ukuran</th>
+                <th>Harga</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pizza Margherita</td>
+                    <td>Medium</td>
+                    <td>Rp 45.000</td>
+                </tr>
+                <tr>
+                    <td>Pizza Macaroni</td>
+                    <td>Large</td>
+                    <td>Rp 120.000</td>
+                </tr>
+                <tr>
+                    <td>Pizza Keju</td>
+                    <td>Small</td>
+                    <td>Rp 35.000</td>
+                </tr>
+            </tbody>
+        </table>
+     </section>
+
+    <!-- Section - Form Pemesanan -->
+     <section id="order">
+        <h2>Formulir Pemesanan</h2>
+        <form action="">
+            <label for="nama">Nama Anda:</label>
+            <input name="nama" type="text" id="nama" placeholder="masukkan nama anda" >
+            <br>
+            <br>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="masukkan email anda">
+            <br>
+            <br>
+
+            <label for="ukuran">Ukuran Pizza :</label>
+            <select name="ukuran" id="ukuran">
+                <option value="">Silakan Pilih Ukuran</option>
+                <option value="large">Large</option>
+                <option value="medium">Medium</option>   
+                <option value="small">Small</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="topping">Pilih Topping</label>
+            <input type="checkbox" id="topping" name="topping" value="keju"> Keju
+            <input type="checkbox" id="topping" name="topping" value="jamur"> Jamur
+            <input type="checkbox" id="topping" name="topping" value="salsa"> Salsa    
+            <input type="checkbox" id="topping" name="topping" value="sosis"> Sosis
+            <br>
+            <br>
+
+            <label for="jenis"> Jenis Pizza :</label>
+            <input type="radio" name="jenis" value="Margherita">Pizza Margherita
+            <input type="radio" name="jenis" value="Macaroni">Pizza Macaroni
+            <input type="radio" name="jenis" value="bbq">Pizza BBQ Chicken
+            <br>
+            <br>
+            <label for="catatan">Catatan :</label><br>
+            <textarea name="catatan" id="catatan" rows="4" cols="30" placeholder="Contoh : Tanpa Sambal."></textarea>
+            <br>
+            <br>
+            <button id="order">Pesan Sekarang</button>
+        </form>
+     </section>
+</body>
+</html>
+<section>
